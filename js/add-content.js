@@ -1,4 +1,4 @@
-function newFunction() {
+function newFunction( personName, hourNow, greeting) {
 
 var personName = prompt("Enter in your name");    
 var hourNow = prompt("What time is it?", "Entry in miltary time 0 to 23");
