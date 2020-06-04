@@ -1,7 +1,5 @@
-function newFunction(personName,hourNow,greeting) {
-
-var personName = prompt("Enter in your name");    
-var hourNow = prompt("What time is it?", "Entry in miltary time 0 to 23");
+var today = new Date();    
+var hourNow = today.getHours();
 var greeting;
 
 if (hourNow) > 18) {
@@ -14,4 +12,3 @@ if (hourNow) > 18) {
     greeting = 'Welcome!';
 }
 return greeting;
-}
