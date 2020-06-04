@@ -1,6 +1,5 @@
 function greeting() {
 
-var person = prompt("Please enter your name", "");
 var hourNow = prompt("What time is it?", "Entry in miltary time 0 to 23");
 
 var today = new Date ();
