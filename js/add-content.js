@@ -1,7 +1,6 @@
 function greeting() {
 
 var hourNow = prompt("What time is it?", "Entry in miltary time 0 to 23");
-
 var today = new Date ();
 var hourNow = today.getHours();
 var greeting;
@@ -15,6 +14,5 @@ if (hourNow) > 18) {
 } else {
     greeting = 'Welcome!';
 }
-
-document.write('<h3>' + greeting + '<h3>');
+return greeting;
 }
