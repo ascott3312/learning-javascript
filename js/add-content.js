@@ -1,8 +1,7 @@
-function greeting() {
+function newFunction() {
 
+var personName = prompt("Enter in your name");    
 var hourNow = prompt("What time is it?", "Entry in miltary time 0 to 23");
-var today = new Date ();
-var hourNow = today.getHours();
 var greeting;
 
 if (hourNow) > 18) {
